@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon|Wiki-Fandom</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    body::-webkit-scrollbar {
+        display: none;
+    }
+    </style>
+</head>
+<div class="intro" id="intro" style="background-color: rgb(36, 36, 110); width: 100vw; height: 100vh;">
+    <img src="images/greatball.gif" alt=""
+    style="position: absolute; width: 100vw; height: 100%; object-fit: cover;"></div>
+<div class="hide" id="hide" style="display: none;">
+    <script>
+        setTimeout(hide, 1600)
+        function hide() {
+            document.getElementById('hide').style.display="block";
+            document.getElementById('intro').style.display="none";
+        }
+    </script>
+<body>
+    <header class="header-container">
+        <button onclick="document.location='login.html'" style="left: 20px; top: 20px; position: absolute; border-radius: 10%; width: 100px; height: 30px;">Entrar</button>
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="rgb(24,50,137)" class="bi bi-chevron-double-down" viewBox="0 0 16 16" style="left: 48%; top: 88%; position: absolute; stroke-width:1px;stroke:rgb(0, 31, 133)">
+            <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        <div class="header">
+            <div class="checkbox-container">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id="toggle">
+                    <label class="checkbox" for="toggle">
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                    </label>
+                    <div class="menu"></div>
+                    <nav class="menu-itens">
+                        <ul>
+                            <li>
+                                <a href="file:///C:/Users/Aldo/Documents/Projeto%20Html+Css%3BCEPDAP5%C2%AAFase/Pokedex/index.html">Pokedex</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/russandroproject/russandroproject.github.io">GitHub</a>
+                            </li>
+                            <li>
+                                <a href="#">Sobre o desenvolvedor</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="logo">
+            <img src="images/pokemon_logo.png" alt="logo"
+            width="550"
+            style="position: absolute; top: 22%; left: 5px;">
+        </div>
+        <h2>Seriado Animado Japonês</h2>
+        <div class="social-web">
+            <a href="https://www.youtube.com/c/pokemon">YouTube</a>
+            <a href="https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9P%C3%A9dia">Mais Sobre</a>
+        </div>
+    </header>
+    <main class="container">
+        <div class="card-container">
+            <div class="card">
+                <div class="card-wrapper">
+                    <h2 class="homepage">História</h2>
+                    <p>Descubra as origens!</p>
+                </div>
+            </div>
+            <div class="card-text">
+                Até onde se sabe, o criador do Mundo Pokémon é o lendário Arceus. Foi ele quem criou Dialga, Palkia e Giratina para serem os guardiões do tempo, espaço e caos. Após isso, Arceus deu vida à Azelf, Uxie e Mesprit para que eles criassem a força de vontade, conhecimento e emoções, respectivamente.
+                Além disso, existem várias cavernas e cidades antigas que revelam que os Pokémon ajudaram a formar à civilização humana. O exemplo mais famoso são as Ruínas de Alph, que dão a entender que os humanos desenvolveram suas linguagens com a ajuda das mais variadas formas dos Unowns.
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-wrapper">
+                    <h2 class="homepage">Games</h2>
+                    <p>Conheça os jogos da franquia!!</p>
+                </div>
+            </div>
+            <div class="card-text">
+                Red, Green e Blue(1996), Red, Blue e Yellow(1998), Gold e Silver(1999), Crystal(2000), Ruby e Sapphire(2002), FireRed, LeafGreen e
+                Emerald(2004), Diamond e Pearl(2006), Platinum(2008), HeartGold e SoulSilver(2009), Black e White(2010), Black 2 e White 2(2012), X & Y(2013), Omega Ruby e Alpha Sapphire(2014), Sun & Moon(2016), Ultra Sun e Ultra Moon(2017), Let's Go, Pikachu! e Let's Go, Eevee!(2018), Sword e Shield(2019), Briliant Diamond e Shining Pearl(2021) e Legends: Arceus(2022)
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-wrapper">
+                    <h2 class="homepage">Anime</h2>
+                    <p>Animações</p>
+                </div>
+            </div>
+            <div class="card-text">
+                <ul>
+                    <li>
+                        Pokémon: O Início/Ouro e Prata "Temporadas 1-5" (série original)
+                    </li>
+                    <li>
+                        Pokémon: A Série Rubi e Safira "Temporadas 6-9"
+                    </li>
+                    <li>
+                        Pokémon: A Série Diamante e Pérola "Temporadas 10- 13"
+                    </li>
+                    <li>
+                        Pokémon: A Série Preto e Branco "Temporadas 14-16"
+                    </li>
+                    <li>
+                        Pokémon: A Série XY "Temporadas 17-19"
+                    </li>
+                    <li>
+                        Pokémon: A Série Sol e Lua "Temporadas 20-22"
+                    </li>
+                    <li>
+                        Pokémon Jornadas: A Série "Temporadas 23-"
+                    </li>
+                </ul>
+            </div>
+            <div class="images" align="center"style="position: absolute; right: 5px; top: 100%;">
+                <img src="images/arceus.webp" alt="Arceus" style="margin: 50px; height: 250px; object-fit: fill; margin-top: 80px;">
+                <br>
+                <img src="images/game.webp" alt="Jogo" style="margin: 50px;  height: 250px; object-fit: fill; margin-top: 70px;">
+                <br>
+                <img src="images/anime.webp" alt="Anime" style="margin: 50px;  height: 270px; object-fit: fill; margin-top: 60px;">
+            </div>
+            
+        </div>
+
+        <h2 style="margin: 50px; font-size: 25px;"> Veja também:</h2>
+        <div class="videos">
+            <iframe width="400" height="215" src="https://www.youtube.com/embed/ucxKWUtqQnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 50px"></iframe>
+            <iframe width="400" height="215" src="https://www.youtube.com/embed/bmSjecCmD7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 50px"></iframe>
+        </div>
+    </main>
+    <footer class="footer" style="width: 100vw;">
+        Criado por futura dupla inovadora! ~ Rick e Alec
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</div>
+</html>
